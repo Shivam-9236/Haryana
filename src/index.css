@@ -1,0 +1,18 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* index.css */
+
+:root {
+  --color-primary: #333; /* Default primary color */
+  --color-secondary: #666; /* Default secondary color */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #fff; /* Dark mode primary color */
+    --color-secondary: #ccc; /* Dark mode secondary color */
+  }
+}
+
